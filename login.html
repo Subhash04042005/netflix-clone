@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Sign In</title>
+    <link rel="icon" href="https://netflix.com/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="https://netflix.com/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="background">
+    <div class="overlay"></div>
+    <div class="signin-container">
+      <h1>Sign In</h1>
+      <form id="loginForm">
+        <input type="text" id="email" placeholder="Email or mobile number" required />
+        <input type="password" id="password" placeholder="Password" minlength="4" maxlength="60" required />
+        <button type="submit" class="signin-btn">Sign In</button>
+
+        <div class="divider">or</div>
+        <button type="button" class="code-btn">Use a sign-in code</button>
+        <a href="#" class="forgot">Forgot password?</a>
+        <div class="remember">
+          <input type="checkbox" id="remember" />
+          <label for="remember">Remember me</label>
+        </div>
+        <div class="signup">
+          New to Netflix? <a href="#">Sign up now.</a>
+        </div>
+        <p class="captcha-note">
+          This page is protected by Google reCAPTCHA. <a href="#">Learn more.</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <p>Questions? Call <a href="#">000-800-919-1694</a></p>
+      <ul class="footer-links">
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Help Centre</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Cookie Preferences</a></li>
+        <li><a href="#">Corporate Information</a></li>
+      </ul>
+      <select class="language-select">
+        <option value="en">🌐 English</option>
+        <option value="hi">हिन्दी</option>
+      </select>
+    </div>
+  </footer>
+
+  <script src="login.js"></script>
+</body>
+</html>
